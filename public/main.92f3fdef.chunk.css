@@ -12,7 +12,7 @@ html {
 
 body {
     margin: 0;
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"
+    font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"
 }
 
 hr {
@@ -130,7 +130,7 @@ ul {
 }
 
 html {
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     line-height: 1.5
 }
 
@@ -193,7 +193,9 @@ h6 {
     font-size: inherit;
     font-weight: inherit
 }
-
+h1{font-size: 25px;
+font-family: 'Inter';
+}
 a {
     color: inherit;
     text-decoration: inherit
@@ -213,7 +215,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+    font-family: 'Inter', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
 }
 
 audio,
@@ -582,7 +584,7 @@ video {
 
 .text-white {
     --tw-text-opacity: 1;
-    color: rgba(255, 255, 255, var(--tw-text-opacity))
+    color: black;
 }
 
 *,
@@ -603,7 +605,7 @@ video {
     /*!*/
     );
     --tw-ring-offset-width: 0px;
-    --tw-ring-offset-color: rgba(0, 0, 0, 0.774);
+    --tw-ring-offset-color: #fff;
     --tw-ring-color: rgba(59, 130, 246, 0.5);
     --tw-ring-offset-shadow: 0 0 transparent;
     --tw-ring-shadow: 0 0 transparent
@@ -620,7 +622,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "T1", serif
+    font-family: 'Inter', "T1", serif
 }
 
 body {
