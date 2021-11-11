@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: white;
+    color: #FFFFFF;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+h2 {
+    font-size: var(--title-text-size, 30px);
+}
+
+.row-title-text {
+    font-size: var(--title-text-size, 30px);
+}
+
+.header h1,
+.header img {
+    display: inline-block;
+}
+
+.header h1 {
+    margin-left: 20px;
+    height: auto;
+}
+
+.header {
+    --tw-bg-opacity: 1;
+    background-color: #D3E3FF;
+}
+
+.mainimg {
+    display: inline;
+}
+
+.faq-row {
+    border-bottom: 1px dashed white;
+}
+
+.faq-title {
+    text-align: center;
+}
+
+.wallet {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+    color: grey;
+}
+
+py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.deco {
+    --faq-bg-color: #e77da0;
+    --title-text-color: white;
+    --row-title-color: white;
+    --row-title-text-size: 18px;
+    --row-content-color: white;
+    --row-content-text-size: 16px;
+    --row-content-padding-top: 10px;
+    --row-content-padding-bottom: 10px;
+    --row-content-padding-right: 150px;
+    --row-content-padding-left: 20px;
+    --arrow-color: white;
+}
